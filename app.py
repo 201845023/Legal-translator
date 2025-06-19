@@ -8,8 +8,8 @@ st.set_page_config(page_title="⚖️ 법률 전문 번역기", page_icon="⚖�
 
 # --- 모델 로딩 ---
 # 파인튜닝된 모델이 저장된 폴더 경로
-KO_EN_MODEL_PATH = "lcm52/legal_marian_koen/"
-EN_KO_MODEL_PATH = "lcm52/legal_marian_enko/"
+KO_EN_MODEL_PATH = "lcm52/legal-marian-koen"
+EN_KO_MODEL_PATH = "lcm52/legal-marian-enko"
 
 @st.cache_resource
 def load_models():
